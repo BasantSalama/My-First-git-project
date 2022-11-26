@@ -26,7 +26,7 @@ jobs:
                 run: docker build -t ${{ secrets.DOCKERUSERNAME }}/newimage .
 
       - name: "push image to dockerhub"
-        run: docker push ${{ secrets.DOCKERUSERNAME }}/newimage
+        run: docker push ${{ secrets.DOCKERUSERNAME }}/newimage .
       
      
     
