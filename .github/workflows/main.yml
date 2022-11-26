@@ -15,9 +15,9 @@ jobs:
       - name: 'testing github action'
         run: pwd
       
-       - name: 'testing printing'
+      - name: 'testing printing'
         run: echo Basant
-        
+
 
       
 
