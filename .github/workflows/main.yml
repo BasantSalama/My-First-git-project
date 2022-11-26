@@ -12,12 +12,10 @@ jobs:
 
     
     steps:
-      - name: 'testing github action'
-        run: pwd
+      - name: 'printing folder content'
+        run: ls
       
-      - name: 'testing printing'
-        run: echo Basant
-
+     
 
       
 
